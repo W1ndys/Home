@@ -1220,8 +1220,9 @@ button {
 	line-height: calc(2.75rem - 2px);
 }
 
+/* 已弃用，改为body控制背景 */
 /* BG */
-
+/* 
 #bg {
 	-moz-transform: scale(1.0);
 	-webkit-transform: scale(1.0);
@@ -1275,12 +1276,12 @@ button {
 	-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 	-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-	background-image: url("../../images/bg.jpg");
+	background-image: url("../../images/bg/bg10.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: 1;
-}
+} */
 
 body.is-article-visible #bg:after {
 	-moz-transform: scale(1.0825);

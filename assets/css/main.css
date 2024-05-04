@@ -1789,3 +1789,15 @@ body.is-preload #footer {
 	opacity: 0;
 }
 
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.social-icons a {
+	font-size: 25px;
+	margin: 0px 12px;
+}

@@ -269,7 +269,7 @@ i {
 }
 
 p {
-	margin: 0 0 2rem 0;
+	margin: 0px 0 0rem 0;
 }
 
 h1,
@@ -1788,3 +1788,4 @@ body.is-article-visible #footer {
 body.is-preload #footer {
 	opacity: 0;
 }
+

@@ -269,7 +269,7 @@ i {
 }
 
 p {
-	margin: 0px 0 0rem 0;
+	margin: 0px 0 1rem 0;
 }
 
 h1,
@@ -1800,4 +1800,10 @@ body.is-preload #footer {
 .social-icons a {
 	font-size: 25px;
 	margin: 0px 12px;
+}
+
+
+/* 控制 inner 内的文字行距 */
+.inner p {
+	margin: 0px 0 0.2rem 0;
 }

@@ -105,9 +105,8 @@ w1ndys@outlook.com
 
 愿你所有美好，都如约而至。 -->
 
-
 <!-- -------------------------------------------------------------------------------------------------------------------- -->
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
 
@@ -116,28 +115,29 @@ w1ndys@outlook.com
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="icon" href="images/ico.png" type="image/x-icon"> <!-- 网站图标 -->
+	<link rel="icon" href="images/ico.png" type="image/x-icon" />
+	<!-- 网站图标 -->
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
 </head>
 
 <body class="is-preload">
-
 	<!-- Wrapper -->
 	<div id="wrapper">
-
 		<!-- Header -->
 		<header id="header">
 			<div class="logo">
 				<img src="https://avatars.githubusercontent.com/u/109416673?s=88" loading="lazy"
-					style="width:inherit;height:inherit">
+					style="width: inherit; height: inherit" />
 			</div>
 			<div class="content">
 				<div class="inner">
 					<h1>W1ndys</h1>
-					<p>这里是介绍文本，欢迎来到我的个人网站！</p>
-					<p>W1ndys准备重做自己的主页网站了，你现在看到的页面是还没做好的样子</p>
+					<p>欲戴皇冠，必承其重。</p>
+					<p>
+						W1ndys准备重做自己的主页网站了，你现在看到的页面是还没做好的样子
+					</p>
 				</div>
 			</div>
 			<nav>
@@ -146,14 +146,13 @@ w1ndys@outlook.com
 					<li><a href="#work">工作</a></li>
 					<li><a href="#about">关于我</a></li>
 					<li><a href="#contact">联系我</a></li>
-					<!--<li><a href="#elements">Elements</a></li>-->
+					<li><a href="#elements">语法文档</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<!-- Main -->
 		<div id="main">
-
 			<!-- Intro -->
 			<article id="intro">
 				<h2 class="major">Intro</h2>
@@ -180,130 +179,148 @@ w1ndys@outlook.com
 			<article id="contact">
 				<h2 class="major">Contact</h2>
 				<ul class="icons">
-					<li><a href="https://github.com/W1ndys" class="icon brands fa-github"><span
-								class="label">GitHub</span></a></li>
-					<li><a href="https://blog.w1ndys.top" class="icon brands fa-blogger"><span
-								class="label">Blogger</span></a></li>
+					<li>
+						<a href="https://github.com/W1ndys" class="icon brands fa-github"><span
+								class="label">GitHub</span></a>
+					</li>
+					<li>
+						<a href="https://blog.w1ndys.top" class="icon brands fa-blogger"><span
+								class="label">Blogger</span></a>
+					</li>
 				</ul>
 			</article>
 
 			<!-- Elements -->
 			<article id="elements">
-				<h2 class="major">Elements</h2>
+				<h2 class="major">语法文档</h2>
 
 				<section>
-					<h3 class="major">Text</h3>
-					<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is
-						<em>emphasized</em>.
-						This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-						This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a
-							href="#">this is a link</a>.
+					<h3 class="major">文本</h3>
+					<p>
+						这是 <b>加粗</b> 的文字，这是 <strong>强调</strong> 的文字。这是
+						<i>斜体</i> 的文字，这是 <em>强调斜体</em> 的文字。这是
+						<sup>上标</sup> 文字，这是 <sub>下标</sub> 文字。
+						这是 <u>下划线</u> 的文字，这是代码：<code>for (;;) { ... }</code>。最后，
+						<a href="#">这是链接</a>。
 					</p>
 					<hr />
-					<h2>Heading Level 2</h2>
-					<h3>Heading Level 3</h3>
-					<h4>Heading Level 4</h4>
-					<h5>Heading Level 5</h5>
-					<h6>Heading Level 6</h6>
+					<h2>二级标题</h2>
+					<h3>三级标题</h3>
+					<h4>四级标题</h4>
+					<h5>五级标题</h5>
+					<h6>六级标题</h6>
 					<hr />
-					<h4>Blockquote</h4>
-					<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus
-						euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis
-						iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem
-						ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-					<h4>Preformatted</h4>
-					<pre><code>i = 0;
+					<h4>引用</h4>
+					<blockquote>
+						Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis
+						sagittis eget tempus euismod. Vestibulum ante ipsum primis in
+						faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat
+						ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in
+						faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.
+					</blockquote>
+					<h4>预格式化</h4>
+					<pre><code>
+i = 0;
 
 while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
+	print 'Iteration ' + i;
+	deck.shuffle();
+	i++;
 }
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+print 'It took ' + i + ' iterations to sort the deck.';
+					</code></pre>
 				</section>
 
 				<section>
-					<h3 class="major">Lists</h3>
+					<h3 class="major">列表</h3>
 
-					<h4>Unordered</h4>
+					<h4>无序列表</h4>
 					<ul>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Sagittis adipiscing.</li>
-						<li>Felis enim feugiat.</li>
+						<li>痛苦的静脉。</li>
+						<li>箭头的编码。</li>
+						<li>猫头鹰很好。</li>
 					</ul>
 
-					<h4>Alternate</h4>
+					<h4>交替列表</h4>
 					<ul class="alt">
-						<li>Dolor pulvinar etiam.</li>
-						<li>Sagittis adipiscing.</li>
-						<li>Felis enim feugiat.</li>
+						<li>痛苦的静脉。</li>
+						<li>箭头的编码。</li>
+						<li>猫头鹰很好。</li>
 					</ul>
 
-					<h4>Ordered</h4>
+					<h4>有序列表</h4>
 					<ol>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Etiam vel felis viverra.</li>
-						<li>Felis enim feugiat.</li>
-						<li>Dolor pulvinar etiam.</li>
-						<li>Etiam vel felis lorem.</li>
-						<li>Felis enim et feugiat.</li>
+						<li>痛苦的静脉。</li>
+						<li>同样的，群众观点。</li>
+						<li>猫头鹰很好。</li>
+						<li>痛苦的静脉。</li>
+						<li>同样的，猫头鹰搞笑。</li>
+						<li>猫头鹰和箭头。</li>
 					</ol>
-					<h4>Icons</h4>
+					<h4>图标</h4>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li>
+							<a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+						</li>
+						<li>
+							<a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+						</li>
+						<li>
+							<a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
+						</li>
+						<li>
+							<a href="#" class="icon brands fa-github"><span class="label">Github</span></a>
+						</li>
 					</ul>
 
-					<h4>Actions</h4>
+					<h4>操作</h4>
 					<ul class="actions">
-						<li><a href="#" class="button primary">Default</a></li>
-						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button primary">默认</a></li>
+						<li><a href="#" class="button">默认</a></li>
 					</ul>
 					<ul class="actions stacked">
-						<li><a href="#" class="button primary">Default</a></li>
-						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button primary">默认</a></li>
+						<li><a href="#" class="button">默认</a></li>
 					</ul>
 				</section>
 
 				<section>
-					<h3 class="major">Table</h3>
-					<h4>Default</h4>
+					<h3 class="major">表格</h3>
+					<h4>默认</h4>
 					<div class="table-wrapper">
 						<table>
 							<thead>
 								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
+									<th>名称</th>
+									<th>描述</th>
+									<th>价格</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>物品一</td>
+									<td>在这里描述物品一。</td>
 									<td>29.99</td>
 								</tr>
 								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>物品二</td>
+									<td>在这里描述物品二。</td>
 									<td>19.99</td>
 								</tr>
 								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>物品三</td>
+									<td>在这里描述物品三。</td>
 									<td>29.99</td>
 								</tr>
 								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
+									<td>物品四</td>
+									<td>在这里描述物品四。</td>
 									<td>19.99</td>
 								</tr>
 								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>物品五</td>
+									<td>在这里描述物品五。</td>
 									<td>29.99</td>
 								</tr>
 							</tbody>
@@ -316,40 +333,42 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						</table>
 					</div>
 
-					<h4>Alternate</h4>
+					<h4>交替</h4>
 					<div class="table-wrapper">
 						<table class="alt">
 							<thead>
 								<tr>
-									<th>Name</th>
-									<th>Description</th>
-									<th>Price</th>
+									<th>名称</th>
+									<th>描述</th>
+									<th>价格</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Item One</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>物品一</td>
+									<td>在这里描述物品一。</td>
 									<td>29.99</td>
 								</tr>
 								<tr>
-									<td>Item Two</td>
-									<td>Vis ac commodo adipiscing arcu aliquet.</td>
+									<td>物品二</td>
+									<td>在这里描述物品二。</td>
 									<td>19.99</td>
 								</tr>
 								<tr>
-									<td>Item Three</td>
-									<td> Morbi faucibus arcu accumsan lorem.</td>
+									<td>物品三</td>
+									<td>
+
+										在这里描述物品三。</td>
 									<td>29.99</td>
 								</tr>
 								<tr>
-									<td>Item Four</td>
-									<td>Vitae integer tempus condimentum.</td>
+									<td>物品四</td>
+									<td>在这里描述物品四。</td>
 									<td>19.99</td>
 								</tr>
 								<tr>
-									<td>Item Five</td>
-									<td>Ante turpis integer aliquet porttitor.</td>
+									<td>物品五</td>
+									<td>在这里描述物品五。</td>
 									<td>29.99</td>
 								</tr>
 							</tbody>
@@ -364,88 +383,92 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</section>
 
 				<section>
-					<h3 class="major">Buttons</h3>
+					<h3 class="major">按钮</h3>
 					<ul class="actions">
-						<li><a href="#" class="button primary">Primary</a></li>
-						<li><a href="#" class="button">Default</a></li>
+						<li><a href="#" class="button primary">主要</a></li>
+						<li><a href="#" class="button">默认</a></li>
 					</ul>
 					<ul class="actions">
-						<li><a href="#" class="button">Default</a></li>
-						<li><a href="#" class="button small">Small</a></li>
+						<li><a href="#" class="button">默认</a></li>
+						<li><a href="#" class="button small">小号</a></li>
 					</ul>
 					<ul class="actions">
-						<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-						<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+						<li>
+							<a href="#" class="button primary icon solid fa-download">图标</a>
+						</li>
+						<li>
+							<a href="#" class="button icon solid fa-download">图标</a>
+						</li>
 					</ul>
 					<ul class="actions">
-						<li><span class="button primary disabled">Disabled</span></li>
-						<li><span class="button disabled">Disabled</span></li>
+						<li><span class="button primary disabled">禁用</span></li>
+						<li><span class="button disabled">禁用</span></li>
 					</ul>
 				</section>
 
 				<section>
-					<h3 class="major">Form</h3>
+					<h3 class="major">表单</h3>
 					<form method="post" action="#">
 						<div class="fields">
 							<div class="field half">
-								<label for="demo-name">Name</label>
-								<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+								<label for="demo-name">名称</label>
+								<input type="text" name="demo-name" id="demo-name" value="" placeholder="张三" />
 							</div>
 							<div class="field half">
-								<label for="demo-email">Email</label>
+								<label for="demo-email">邮箱</label>
 								<input type="email" name="demo-email" id="demo-email" value=""
-									placeholder="jane@untitled.tld" />
+									placeholder="zhangsan@example.com" />
 							</div>
 							<div class="field">
-								<label for="demo-category">Category</label>
+								<label for="demo-category">类别</label>
 								<select name="demo-category" id="demo-category">
 									<option value="">-</option>
-									<option value="1">Manufacturing</option>
-									<option value="1">Shipping</option>
-									<option value="1">Administration</option>
-									<option value="1">Human Resources</option>
+									<option value="1">制造业</option>
+									<option value="1">运输业</option>
+									<option value="1">行政</option>
+									<option value="1">人力资源</option>
 								</select>
 							</div>
 							<div class="field half">
-								<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-								<label for="demo-priority-low">Low</label>
+								<input type="radio" id="demo-priority-low" name="demo-priority" checked />
+								<label for="demo-priority-low">低</label>
 							</div>
 							<div class="field half">
-								<input type="radio" id="demo-priority-high" name="demo-priority">
-								<label for="demo-priority-high">High</label>
+								<input type="radio" id="demo-priority-high" name="demo-priority" />
+								<label for="demo-priority-high">高</label>
 							</div>
 							<div class="field half">
-								<input type="checkbox" id="demo-copy" name="demo-copy">
-								<label for="demo-copy">Email me a copy</label>
+								<input type="checkbox" id="demo-copy" name="demo-copy" />
+								<label for="demo-copy">给我发一份复制邮件</label>
 							</div>
 							<div class="field half">
-								<input type="checkbox" id="demo-human" name="demo-human" checked>
-								<label for="demo-human">Not a robot</label>
+								<input type="checkbox" id="demo-human" name="demo-human" checked />
+								<label for="demo-human">我不是机器人</label>
 							</div>
 							<div class="field">
-								<label for="demo-message">Message</label>
-								<textarea name="demo-message" id="demo-message" placeholder="Enter your message"
+								<label for="demo-message">留言</label>
+								<textarea name="demo-message" id="demo-message" placeholder="请输入您的留言"
 									rows="6"></textarea>
 							</div>
 						</div>
 						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="primary" /></li>
-							<li><input type="reset" value="Reset" /></li>
+							<li>
+								<input type="submit" value="发送消息" class="primary" />
+							</li>
+							<li><input type="reset" value="重置" /></li>
 						</ul>
 					</form>
 				</section>
-
 			</article>
-
 		</div>
-
 		<!-- Footer | 页脚 -->
 		<footer id="footer">
-			<p class="copyright">&copy; 2023-2024 W1ndys | 网页设计: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			<p class="copyright">
+				&copy; 2023-2024 W1ndys | 网页设计:
+				<a href="https://html5up.net">HTML5 UP</a>.
+			</p>
 		</footer>
-
 	</div>
-
 
 	<div id="bg"></div>
 
@@ -458,8 +481,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	<!-- 51.la 网站统计 -->
 	<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-	<script>LA.init({ id: "3HPYCcIS8vAIBRXG", ck: "3HPYCcIS8vAIBRXG", autoTrack: true, hashMode: true, screenRecord: true })</script>
-
+	<script>
+		LA.init({
+			id: "3HPYCcIS8vAIBRXG",
+			ck: "3HPYCcIS8vAIBRXG",
+			autoTrack: true,
+			hashMode: true,
+			screenRecord: true,
+		});
+	</script>
 </body>
 
 </html>

@@ -269,7 +269,7 @@ i {
 }
 
 p {
-	margin: 0px 0 1rem 0;
+	margin: 0px 0 0rem 0;
 }
 
 h1,
@@ -1237,9 +1237,9 @@ button {
 	z-index: 1;
 }
 
-/* 添加注释说明 */
+/* æ·»åŠ æ³¨é‡Šè¯´æ˜Ž */
 
-/* 背景过渡前伪类样式 */
+/* èƒŒæ™¯è¿‡æ¸¡å‰ä¼ªç±»æ ·å¼ */
 #bg:before {
 	content: '';
 	display: block;
@@ -1248,23 +1248,23 @@ button {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/* 设置背景颜色过渡效果 */
+	/* è®¾ç½®èƒŒæ™¯é¢œè‰²è¿‡æ¸¡æ•ˆæžœ */
 	-moz-transition: background-color 1s ease-in-out;
 	-webkit-transition: background-color 1s ease-in-out;
 	-ms-transition: background-color 1s ease-in-out;
 	transition: background-color 1s ease-in-out;
-	/* 设置过渡延迟时间 */
+	/* è®¾ç½®è¿‡æ¸¡å»¶è¿Ÿæ—¶é—´ */
 	transition-delay: 1s;
-	/* 设置背景图像 */
+	/* è®¾ç½®èƒŒæ™¯å›¾åƒ */
 	background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-	/* 设置背景图像尺寸和位置 */
+	/* è®¾ç½®èƒŒæ™¯å›¾åƒå°ºå¯¸å’Œä½ç½® */
 	background-size: auto, 256px 256px;
 	background-position: center, center;
 	background-repeat: no-repeat, repeat;
 	z-index: 2;
 }
 
-/* 背景过渡后伪类样式 */
+/* èƒŒæ™¯è¿‡æ¸¡åŽä¼ªç±»æ ·å¼ */
 #bg:after {
 	content: '';
 	display: block;
@@ -1273,7 +1273,7 @@ button {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/* 缩放和滤镜过渡效果 */
+	/* ç¼©æ”¾å’Œæ»¤é•œè¿‡æ¸¡æ•ˆæžœ */
 	-moz-transform: scale(1.125);
 	-webkit-transform: scale(1.125);
 	-ms-transform: scale(1.125);
@@ -1282,7 +1282,7 @@ button {
 	-webkit-transition: -webkit-transform 0.1625s ease-in-out, -webkit-filter 0.1625s ease-in-out;
 	-ms-transition: -ms-transform 0.1625s ease-in-out, -ms-filter 0.1625s ease-in-out;
 	transition: transform 0.1625s ease-in-out, filter 0.1625s ease-in-out;
-	/* 设置背景图像 */
+	/* è®¾ç½®èƒŒæ™¯å›¾åƒ */
 	background-image: url("../../images/bg/bg8.png");
 	background-position: center;
 	background-size: cover;
@@ -1424,7 +1424,7 @@ body.is-preload #bg:before {
 	border: solid 1px #ffffff;
 	border-radius: 100%;
 	overflow: hidden;
-	/*写上这个overflow:hidden,头像就是圆形,模仿人间工作p大佬改的,虽然我也不知道为什么*/
+	/*å†™ä¸Šè¿™ä¸ªoverflow:hidden,å¤´åƒå°±æ˜¯åœ†å½¢,æ¨¡ä»¿äººé—´å·¥ä½œpå¤§ä½¬æ”¹çš„,è™½ç„¶æˆ‘ä¹Ÿä¸çŸ¥é“ä¸ºä»€ä¹ˆ*/
 }
 
 #header .logo .icon:before {

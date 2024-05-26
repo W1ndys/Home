@@ -163,7 +163,8 @@ w1ndys@outlook.com
 			<article id="intro">
 				<h2 class="major">简介</h2>
 				<span class="image main"><img src="images/W1ndys.png" alt="" /></span>
-				<p><span>你好啊，我是 W1ndys，欢迎来到我的主页。</span></p>
+
+				<!-- <p><span>你好啊，我是 W1ndys，欢迎来到我的主页。</span></p>
 				<p><span>目前面向网络安全 </span><code>Reverse</code><span> 方向学习。</span></p>
 				<p><del><span>其实你一直在逃避，表面是在学 Reverse，实际上一直在搞前端，Reverse 一点也没学</span></del></p>
 				<p><span>如果你与我认识的久了, 你可能会发现, 我经常以 </span><code>猫猫虫</code><span> 的身份出现，包括但不仅限于
@@ -262,7 +263,7 @@ w1ndys@outlook.com
 				<blockquote>
 					<p><span>祝好</span></p>
 					<p><a href='https://w1ndys.top/'><span>W1ndys</span></a></p>
-				</blockquote>
+				</blockquote> -->
 			</article>
 
 			<article id="img-intro">
@@ -273,14 +274,12 @@ w1ndys@outlook.com
 			<!-- Work -->
 			<article id="work">
 				<h2 class="major">Work</h2>
-				<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 				<p>测试段落3</p>
 			</article>
 
 			<!-- About -->
 			<article id="about">
 				<h2 class="major">About</h2>
-				<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
 				<p>测试段落4</p>
 			</article>
 
@@ -604,6 +603,16 @@ print 'It took ' + i + ' iterations to sort the deck.';
 		});
 	</script>
 
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			fetch('intro.html') // 假设external.html在同一目录下
+				.then(response => response.text())
+				.then(data => {
+					document.getElementById('intro').innerHTML = data;
+				})
+				.catch(error => console.error('Error fetching the HTML file:', error));
+		});
+	</script>
 </body>
 
 </html>

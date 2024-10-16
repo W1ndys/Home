@@ -1283,7 +1283,7 @@ button {
 	-ms-transition: -ms-transform 0.1625s ease-in-out, -ms-filter 0.1625s ease-in-out;
 	transition: transform 0.1625s ease-in-out, filter 0.1625s ease-in-out;
 	/* è®¾ç½®èƒŒæ™¯å›¾åƒ */
-	background-image: url("../../images/bg/bg8.png");
+	background-image: url("../../images/bg/bg8.webp");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
